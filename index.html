@@ -1,0 +1,175 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title> K-pic </title>
+    <link rel="stylesheet" href="css/style.css"/>
+    
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script> 
+<script src="js/jquery-ui-1.8.23.custom.min.js"></script>
+<script> 
+$( window ).scroll( function() { 
+      if ( $( document ).scrollTop() >= 2) {   
+           $("header").css({background:"#fff"});
+           $("#gnb li a").css({color:"#000"});
+           $("header").css({"box-shadow":"0 4px 6px rgba(0,0,0,.1)"});
+      }
+      else { 
+    $("header").css({background:"transparent"});
+    $("#gnb li a").css({color:"#fff"});
+    $("header").css({"box-shadow":"none"});
+      } 
+     }); 
+
+$(function(){       
+    
+$("header").mouseover(function(){
+$("header").css({background:"#fff"});
+$("#gnb li a").css({color:"#000"});
+$("header").css({"box-shadow":"0 4px 6px rgba(0,0,0,.1)"});
+}); 
+    
+ 
+$("header").mouseout(function(){
+                     
+if ( $( document ).scrollTop() >= 10) {   
+           $("header").css({background:"#fff"});
+           $("#gnb li a").css({color:"#000"});
+           $("header").css({"box-shadow":"0 4px 6px rgba(0,0,0,.1)"});
+      }
+      else { 
+    $("header").css({background:"transparent"});
+    $("#gnb li a").css({color:"#fff"});
+    $("header").css({"box-shadow":"none"});
+      } 
+}); 
+});   
+    
+</script> 
+
+    </head>
+    <body>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
+
+    <header>
+        <nav>
+            <ul id="gnb">
+                <li id="K-pic"><a href="index.html">K-pic</a></li>
+                <li class="menu"><a href="index.html">Home</a></li>
+                <li class="menu"><a href="aboutus.html">About Us</a></li>
+                <li class="menu"><a href="gallery.html">Gallery</a></li>
+                <li class="menu"><a href="#">Membership & MD</a></li>
+                <li class="menu"><a href="#">고객센터</a></li>
+            </ul>
+        </nav>
+    </header>
+
+  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+    <div class="carousel-inner">
+    <div class="carousel-item item1 active">
+      
+    </div>
+
+    <div class="carousel-item item2">
+      
+    </div>
+
+    <div class="carousel-item item3">
+
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    </div>
+
+    <!-- <div class="head">
+        <h1>당신의 손으로 최적의 사진을.</h1>
+    </div> -->
+
+    <div style="width: 1960px;">
+        
+        <div class="aboutus">
+            <h1>ABOUT US</h1>
+            <img src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1189&q=80" width="500">
+            <h2>K-pic Introduction</h2>
+            <p>우리나라의 K-미가 넘치는 사진들이 가득한 곳. K-pic 입니다.</p>  
+
+            <h2>Leader Introduction</h2>
+            <h3>"안녕하세요. K-감성을 사랑하는 평범한 청년 김누구입니다."<br>K-감성과 사진을 사랑하는 사람들이 손쉽게 사진을 구할 수 있는 곳은 없을까?<br><br>작은 불편함과 궁금증에서 시작한 사이트.</h3>
+            <button><a href="aboutus.html">More Detail</a></button>
+        </div>
+
+
+         <div class="photo">
+            <h1>PHOTOGRAPHY</h1>
+
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+         <div class="card">
+         <img src="https://i.postimg.cc/QMjmK6nN/20180418-1705312.jpg" class="card-img-top" alt="...">
+         <div class="card-body">
+         <h5 class="card-title"><b>주변에서 쉽게 만나볼 수 있는 풍경들</b></h5>
+         <p class="card-text">길을 걷다가도 마음에 드는 풍경이 있어 발걸음을 멈추고 사진기를 들어본 적 있으신가요?<br>우리 주변에 아름다운 풍경들이 숨어있답니다.</p>
+        </div>
+        </div>
+        </div>
+
+        <div class="col">
+        <div class="card">
+        <img src="https://i.postimg.cc/Fs3PJQzQ/20180216-154013.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title"><b>우리나라의 전통미를 담아낸 풍경들</b></h5>
+        <p class="card-text">아름다운 우리 나라의 전통미를 품은 사진들이 가득한 곳. 어디에서도 찾아볼 수 없는 전통미가 가득한 사진들이 모여있답니다.</p>
+        </div>
+        </div>
+        </div>
+  
+        <div class="col">
+        <div class="card">
+        <img src="https://i.postimg.cc/1tFWcxB6/20170725-131211.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title"><b>우리나라의 아름다운 풍경들</b></h5>
+        <p class="card-text">우리나라의 자연 경관은 매우 아름답습니다. 곳곳에 숨어있는 우리나라의 아름다운 풍경들을 사진기에 담아봅니다.</p>
+        </div>
+        </div>
+        </div>
+  
+        <div class="col">
+        <div class="card">
+        <img src="https://i.postimg.cc/2SQT6pGX/20171004-1633452.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+        <h5 class="card-title"><b>배경화면으로 소장하고픈 사진들</b></h5>
+        <p class="card-text">배경화면으로 저장하고 싶은 분위기 있는 사진들. 우리나라의 분위기 만점 스팟들만을 골라 담았습니다.</p>
+        </div>
+        </div>
+        </div>
+        </div>
+
+        </div>
+
+        
+
+        </div>
+
+   
+        <footer>
+            Want more informnation about k-pic, call 000-0000-0000
+            <hr>
+            Copyright © 2021 K-pic Inc. All rights reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy Policy&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;Terms of Use&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;Sales and Refunds&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;Legal&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;Site Map&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;United States
+        </footer>
+            </div>
+    </body>
+</html>
